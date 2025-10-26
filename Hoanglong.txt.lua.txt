@@ -3142,7 +3142,7 @@ local Disc_Title = Instance.new("TextLabel")
 
 Discord.Name = "Discord"
 Discord.Parent = Main
-Discord.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Discord.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 Discord.BackgroundTransparency = 1 -- Làm cho nền trong suốt
 Discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Discord.BorderSizePixel = 0
