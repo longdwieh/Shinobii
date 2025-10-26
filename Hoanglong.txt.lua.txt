@@ -2896,8 +2896,8 @@ end
 local library = {}
 
 _G.Color = Color3.fromRGB(255, 150, 0)
-_G.imageLogo = "rbxassetid://116231965107271"
-_G.Logo = "rbxassetid://116231965107271"
+_G.imageLogo = "rbxassetid://122799472002972"
+_G.Logo = "rbxassetid://122799472002972"
 _G.NameHub = "Anya Hub | On Top" -- ชื่อ Hub
 _G.Title = "Anya Hub" -- คำอธิบาย
 -----------------------------------------------------------------
@@ -2934,7 +2934,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337 - 0.10, 0, 0.0952890813 + 0.01, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "rbxassetid://116231965107271"
+ImageButton.Image = "rbxassetid://122799472002972"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = ImageButton
@@ -3196,12 +3196,12 @@ end)
 
 -- Click event: copy Discord link
 Discord.MouseButton1Click:Connect(function()
-    (setclipboard or toclipboard)("https://discord.gg/AkDgH65MUF")
+    (setclipboard or toclipboard)("https://discord.gg/D5KUdMs2gj")
     wait(.1)
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Discord",
         Text = "Link Discord Đã Được Copy",
-        Button1 = "Okay Đại Ka✅",
+        Button1 = "xin hãy vào sever Anya Hub",
         Duration = 20
     })
 end)
@@ -11561,8 +11561,8 @@ local Data = {
                     ["inline"] = false
                 },
                 {
-                    ["name"] = "hello",
-                    ["value"] = "hãy lan truyền script này cho mọi người",
+                    ["name"] = "sever bên dưới 👇",
+                    ["value"] = "https://discord.gg/D5KUdMs2gj",
                     ["inline"] = false
                 }
             }
@@ -11583,7 +11583,7 @@ game:GetService("StarterGui"):SetCore(
     {
         Title = "Anya Hub",
         Text = "Đã Tải Xong",
-        Icon = "rbxthumb://type=Asset&id=116231965107271&w=150&h=150",
+        Icon = "rbxthumb://type=Asset&id=122799472002972&w=150&h=150",
         Duration = 5
     }
 )
