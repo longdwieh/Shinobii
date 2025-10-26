@@ -12,7 +12,7 @@ textLabel.Size = UDim2.new(0, 200, 0, 40) -- Nhỏ lại kích thước hộp
 textLabel.Position = UDim2.new(0, 10, 0, 10)
 textLabel.Font = Enum.Font.FredokaOne
 textLabel.TextScaled = false
-textLabel.TextSize = 20 -- Kích thước chữ nhỏ
+textLabel.TextSize = 30 -- Kích thước chữ nhỏ
 textLabel.BackgroundTransparency = 1
 textLabel.TextStrokeTransparency = 0
 
@@ -2896,10 +2896,10 @@ end
 local library = {}
 
 _G.Color = Color3.fromRGB(255, 150, 0)
-_G.imageLogo = "rbxassetid://12940626152"
-_G.Logo = "rbxassetid://12940626152"
-_G.NameHub = "by tuananhiosdz" -- ชื่อ Hub
-_G.Title = "Tuấn Anh IOS" -- คำอธิบาย
+_G.imageLogo = "rbxassetid://116231965107271"
+_G.Logo = "rbxassetid://116231965107271"
+_G.NameHub = "Anya Hub | On Top" -- ชื่อ Hub
+_G.Title = "Anya Hub" -- คำอธิบาย
 -----------------------------------------------------------------
 
 local isUIEnabled = true 
@@ -2934,7 +2934,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337 - 0.10, 0, 0.0952890813 + 0.01, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "rbxassetid://75774010417827"
+ImageButton.Image = "rbxassetid://116231965107271"
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = ImageButton
